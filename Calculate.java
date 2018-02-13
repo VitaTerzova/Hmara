@@ -87,7 +87,7 @@ class CalculatorPanel extends JPanel {
 			String command = event.getActionCommand();
 			if(start) 
 			{
-				if(command.equals("-")) 
+				if(command.equals("+")) 
 				{
 					display.setText(command);
 					start = false;
